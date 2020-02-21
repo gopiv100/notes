@@ -1,80 +1,99 @@
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+# Programming
 
-<!--Italics-->
-*This text* is italic
+### Git Hub
+- [Markdown](./topics/markdown.md)
+- [Git](./topics/git.md)
+    
+### Javascript
 
-_This text_ is italic
+### Frontend
+-   [CSS]
+-   [Vue](./topics/vue.md)
 
-<!--Strong-->
-**This text** is strong
+### Backend
+-   [Django](./topics/djando.md)
+-   [nginx](./topics/nginx.md)
+-   [Caching](./topics/caching.md)
+-   [Logging](./topics/logging.md)
+-   [SSL](./topics/ssl.md)
 
-__This text__ is strong
+### Database
+-   [PostgreSQL](./topics/mysql.md)
+-   [SQL Server](./topics/mssql.md)
 
-<!--Strike through-->
+### Architecture
+-   [MVC](./topics/mvc.md)
+-   [Architecture](./topics/architecture.md)
+-   Use Cases
+-   [RESTful](./topics/restful.md)
 
-~~This text~~ is strikethrough
+### Concepts
 
-<!-- Horizontal Rule-->
-___
+-   File Organization
+-   Authentication
+-   [Security](./topics/security.md)
+-   [Testing](./topics/testing.md)
+-   [Bitwise](./topics/bitwise.md)
+-   [Binary base](./topics/base.md)
 
----
+### Useful
 
-<!--BLock quote-->
-> This is a quote
+-   [Algorithms](./topics/algos.md)
+-   [Excel](./topics/excel.md)
+-   [Google API](./topics/googleapi.md)
 
-<!--Links-->
-[Google](http://Google.com "Click for Google")
+### Mobile
 
-<!-- UL-- >
-* Item 1
-* Item 2
-* Item 3
-  * Nested Item 1
-  * Nested Item 2
+-   [Overview](./topics/mobile.md)
 
-<!-- OL-->
-1. Item 1
-1. Item 2
-1. Item 3
+### IDE
 
-<!-- Inline Code Block-->
-`<p>This is a paragraph</p>`
+-   [VS Code](./topics/vscode.md)
 
-<!--Image-->
-![Markdown.logo](https://markdown-here.com/img/icon256.png)
+### Low Level
 
-<!-- Github Markdown-->
+-   [Assembly](./topics/assembly.md)
+-   [WebAssembly](./topics/wasm.md)
 
-<!-- Code Blocks-->
-```bash
-npm install
-npm start
+# Linux
+
+### Administration
+
+-   [basics](./topics/linux.md)
+-   [filesystem](./topics/filesystem.md)
+-   [users](./topics/users.md)
+-   [config](./topics/config.md)
+-   [systemd](./topics/systemd.md)
+
+### Tools
+
+-   [bash](./topics/bash.md)
+-   [tmux](./topics/tmux.md)
+-   [vim](./topics/vim.md)
+-   [ssh](./topics/ssh.md)
+-   [compression](./topics/compression.md)
+-   [cron](./topics/cron.md)
+
+# DevOps
+
+### Virtualization
+
+-   [VM](./topics/vm.md)
+-   [Vagrant](./topics/vagrant.md)
+
+### Containerization
+
+-   [Docker](./topics/docker.md)
+
+# Networking
+
+-   [Networking](./topics/networking.md)
+
+# Googling
+
 ```
-
-```javascript
-function add(num1, num2){
-    return num1 + num2}
+"exact query"
+website.com: query
+query 2017..2018
+filetype:pdf query
 ```
-```python
-def add(num1, num2) :
-    return num1 + num2
-```
-
-<!-- Tables-->
-|Name    | Email       |
-| -------|-------------|
-|John Doe|jon@Gmail.com|
-|John Doe|jon@Gmail.com|
-
-<!-- Tasklist-->
-* [x] task 1
-* [x] task 2
-* [ ] task 3 
-
-
-
