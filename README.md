@@ -11,7 +11,7 @@
 -   [Vue](./topics/vue.md)
 
 ### Backend
--   [Django](./topics/djando.md)
+-   [Django](./topics/django.md)
 -   [nginx](./topics/nginx.md)
 -   [Caching](./topics/caching.md)
 -   [Logging](./topics/logging.md)
