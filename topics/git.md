@@ -22,17 +22,19 @@ Download from repository and set user.
 
 ```git
 git clone URL
-git config user.name "NAME"
-git config user.email "EMAIL"
+git config --global user.name "NAME"
+git config --global user.email "EMAIL"
+git config --list
 ```
 
 Make changes and upload back.
 
 ```git
+git init                   (for new projects)
 git status
-git add .
+git add -A                 (or just filename to add just one file)
 git commit -m "MESSAGE"
-git push origin master
+git push origin master     (for projects with multiple users : git pull before git push to not to override others changes)
 ```
 
 A previously cloned repo on a server can now pull just the changes (clone is used only the first time to create the local repo).
